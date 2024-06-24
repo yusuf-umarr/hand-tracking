@@ -1,0 +1,37 @@
+#Hand Tracking
+
+A Python project utilizing OpenCV and MediaPipe to detect and track hands in real-time.
+
+Features:
+
+- Hand detection and tracking using MediaPipe
+- Finger landmark detection
+- Real-time FPS display
+- Adjustable detection and tracking confidence
+
+Usage:
+
+1. Clone the repository
+2. Install required libraries: cv2 and mediapipe
+3. Run the script using python (link unavailable)
+4. The script will detect and track hands in real-time using your webcam
+
+Classes and Functions:
+
+- handDetector class: Initializes the hand detector with adjustable parameters
+- findHands function: Detects hands in an image and draws landmarks
+- findPosition function: Returns the list of finger landmarks
+
+Notes:
+
+- Adjust detection and tracking confidence by modifying the detectionCon and trackCon parameters in the handDetector class
+- The project is in its early stages, and future updates will include improved performance and additional features
+
+Acknowledgments:
+
+- MediaPipe for their hand tracking model
+- OpenCV for their computer vision library
+
+License:
+
+- MIT License
